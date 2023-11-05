@@ -63,7 +63,8 @@
               "browserTarget": "chatbot:build:production"
             },
             "development": {
-              "browserTarget": "chatbot:build:development"
+              "browserTarget": "chatbot:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
